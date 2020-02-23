@@ -1,6 +1,7 @@
 disabled_rules:
     - line_length
     - type_body_length
+    - trailing_whitespace
 
 function_body_length:
     - 200 # warning
@@ -8,8 +9,7 @@ function_body_length:
 
 opt_in_rules:
   - vertical_whitespace_opening_braces
-
-
+  - overridden_super_call
 
 type_name:
     min_length: 3
