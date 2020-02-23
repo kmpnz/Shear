@@ -9,22 +9,22 @@
 import XCTest
 
 @testable import Shear
- 
+
 class StatusMenuTests: XCTestCase {
     var statusMenu: StatusMenu!
-
+    
     override func setUp() {
         super.setUp()
         
         statusMenu = StatusMenu()
     }
-
+    
     override func tearDown() {
         statusMenu = nil
         
         super.tearDown()
     }
-
+    
     func testStatusMenuInstallation() {
         statusMenu.install(delegate: nil)
         XCTAssertNotNil(statusMenu.item, "The status item is not defined")
