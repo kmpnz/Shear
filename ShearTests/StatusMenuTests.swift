@@ -25,7 +25,7 @@ class StatusMenuTests: XCTestCase {
         super.tearDown()
     }
 
-    func testExample() {
+    func testStatusMenuInstallation() {
         statusMenu.install(delegate: nil)
         XCTAssertNotNil(statusMenu.item, "The status item is not defined")
         guard let statusItem = statusMenu.item, let button = statusItem.button else {

@@ -16,7 +16,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var app: App!
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        app = App()
+        let history = History(storage: InMemoryHistoryStorage())
+        app = App(history: history)
         app.start()
     }
 
