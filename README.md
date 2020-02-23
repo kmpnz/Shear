@@ -1,5 +1,10 @@
 # Shear
 
+## Bootstrap
+```bash
+./bootstrap.sh
+```
+
 ## Run tests
 ```bash
 bundle exec fastlane scan
