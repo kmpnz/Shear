@@ -16,9 +16,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var app: App!
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        
-        
-        
         app = App()
         app.start()
     }
