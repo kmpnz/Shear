@@ -11,5 +11,3 @@ import Foundation
 protocol HistoryType {
     var storage: HistoryStorageType { get }
 }
-
-

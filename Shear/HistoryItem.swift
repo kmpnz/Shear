@@ -15,5 +15,3 @@ struct HistoryItem: Hashable {
         self.kind = kind
     }
 }
-
-
