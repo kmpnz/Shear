@@ -14,6 +14,9 @@
 		A0AA559424029088007CA9E3 /* HistoryStorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AA559324029088007CA9E3 /* HistoryStorageType.swift */; };
 		A0AA559624029118007CA9E3 /* HistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AA559524029118007CA9E3 /* HistoryItem.swift */; };
 		A0AA559824029226007CA9E3 /* InMemoryHistoryStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AA559724029226007CA9E3 /* InMemoryHistoryStorageTests.swift */; };
+		A0AA559A2402DD71007CA9E3 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AA55992402DD71007CA9E3 /* Filter.swift */; };
+		A0AA559C2402E217007CA9E3 /* TrimWhiteSpaceFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AA559B2402E217007CA9E3 /* TrimWhiteSpaceFilterTests.swift */; };
+		A0AA559E2402E511007CA9E3 /* ContentKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AA559D2402E511007CA9E3 /* ContentKind.swift */; };
 		A0E5120923E8B4B600ACA569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5120823E8B4B600ACA569 /* AppDelegate.swift */; };
 		A0E5120B23E8B4BA00ACA569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E5120A23E8B4BA00ACA569 /* Assets.xcassets */; };
 		A0E5120E23E8B4BA00ACA569 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0E5120C23E8B4BA00ACA569 /* MainMenu.xib */; };
@@ -41,6 +44,9 @@
 		A0AA559324029088007CA9E3 /* HistoryStorageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStorageType.swift; sourceTree = "<group>"; };
 		A0AA559524029118007CA9E3 /* HistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItem.swift; sourceTree = "<group>"; };
 		A0AA559724029226007CA9E3 /* InMemoryHistoryStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryHistoryStorageTests.swift; sourceTree = "<group>"; };
+		A0AA55992402DD71007CA9E3 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		A0AA559B2402E217007CA9E3 /* TrimWhiteSpaceFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimWhiteSpaceFilterTests.swift; sourceTree = "<group>"; };
+		A0AA559D2402E511007CA9E3 /* ContentKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentKind.swift; sourceTree = "<group>"; };
 		A0E5120523E8B4B600ACA569 /* Shear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E5120823E8B4B600ACA569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0E5120A23E8B4BA00ACA569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,6 +113,8 @@
 				A0AA559324029088007CA9E3 /* HistoryStorageType.swift */,
 				A0AA558F24028A04007CA9E3 /* InMemoryHistoryStorage.swift */,
 				A0AA558D24028825007CA9E3 /* History.swift */,
+				A0AA55992402DD71007CA9E3 /* Filter.swift */,
+				A0AA559D2402E511007CA9E3 /* ContentKind.swift */,
 			);
 			path = Shear;
 			sourceTree = "<group>";
@@ -117,6 +125,7 @@
 				A0E5121B23E8B4BA00ACA569 /* Info.plist */,
 				A0AA558924026F87007CA9E3 /* StatusMenuTests.swift */,
 				A0AA559724029226007CA9E3 /* InMemoryHistoryStorageTests.swift */,
+				A0AA559B2402E217007CA9E3 /* TrimWhiteSpaceFilterTests.swift */,
 			);
 			path = ShearTests;
 			sourceTree = "<group>";
@@ -235,7 +244,9 @@
 				A0AA558E24028825007CA9E3 /* History.swift in Sources */,
 				A0AA559624029118007CA9E3 /* HistoryItem.swift in Sources */,
 				A0E5120923E8B4B600ACA569 /* AppDelegate.swift in Sources */,
+				A0AA559A2402DD71007CA9E3 /* Filter.swift in Sources */,
 				A0E5122523E8B6C800ACA569 /* App.swift in Sources */,
+				A0AA559E2402E511007CA9E3 /* ContentKind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0AA559824029226007CA9E3 /* InMemoryHistoryStorageTests.swift in Sources */,
+				A0AA559C2402E217007CA9E3 /* TrimWhiteSpaceFilterTests.swift in Sources */,
 				A0AA558A24026F87007CA9E3 /* StatusMenuTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
