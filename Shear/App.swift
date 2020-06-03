@@ -13,7 +13,7 @@ class App {
     let statusMenu = StatusMenu()
     
     let history: HistoryType
-    
+
     init(history: HistoryType) {
         self.history = history
     }
