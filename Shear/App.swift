@@ -13,6 +13,8 @@ class App {
     let statusMenu = StatusMenu()
     
     let history: HistoryType
+
+    // Test change, please delete
     
     init(history: HistoryType) {
         self.history = history
