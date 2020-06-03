@@ -14,14 +14,20 @@ class App {
     
     let history: HistoryType
 
-    // Test change, please delete
-    
+
+
+
+
     init(history: HistoryType) {
+
+
+
+
         self.history = history
     }
     
     func start() {
-        statusMenu.install(delegate: self)
+            statusMenu.install(delegate: self)
     }
     
     func terminate() {
