@@ -14,20 +14,12 @@ class App {
     
     let history: HistoryType
 
-
-
-
-
     init(history: HistoryType) {
-
-
-
-
         self.history = history
     }
     
     func start() {
-            statusMenu.install(delegate: self)
+        statusMenu.install(delegate: self)
     }
     
     func terminate() {
